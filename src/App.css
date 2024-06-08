@@ -14,13 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:salmon;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -35,4 +34,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  padding: 20px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #61dafb;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+.App-footer {
+  background-color:salmon;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
